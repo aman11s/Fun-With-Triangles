@@ -1,7 +1,6 @@
 const angleOne = document.querySelector("#angle-one");
 const angleTwo = document.querySelector("#angle-two");
 const angleThree = document.querySelector("#angle-three");
-const checkTriangleButton = document.querySelector("#check-triangle-btn");
 const angleOfTriangleMessage = document.querySelector("#angle-of-triangle-message");
 const isTriangleForm = document.querySelector("#is-triangle-form");
 
