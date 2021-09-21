@@ -27,14 +27,15 @@
 
     <main>
         <h1>Calculate Hypotenuse of a triangle</h1>
-        <label class="label" for="base-value">Enter base value (a) =</label>
-        <input class="input" type="number" placeholder="Base Value" id="base-value">
+        <form id="hypotenuse-form">
+            <label class="label" for="base-value">Enter base value (a) =</label>
+            <input class="input" type="number" required min="1" placeholder="Base Value" id="base-value">
 
-        <label class="label" for="height-value">Enter height value (b) =</label>
-        <input class="input" type="number" placeholder="Height Value" id="height-value">
+            <label class="label" for="height-value">Enter height value (b) =</label>
+            <input class="input" type="number" required min="1" placeholder="Height Value" id="height-value">
 
-        <button class="btn" id="hypotenuse-btn">Calculate</button>
-
+            <button class="btn">Calculate</button>
+        </form>
         <p class="message" id="hypotenuse-message"></p>
     </main>
 

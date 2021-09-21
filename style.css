@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
 }
 
 :root {
@@ -52,6 +53,11 @@ main, footer {
     border-radius: 0.5rem;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 ::placeholder {
     text-align: center;
 }
@@ -75,7 +81,7 @@ main, footer {
 }
 
 .btn {
-    margin: 1rem;
+    margin: 1.5rem;
     padding: 0.5rem;
     background-color: var(--primary-black);
     color: var(--primary-white);
@@ -103,7 +109,7 @@ main, footer {
 .message {
     font-size: 1.4rem;
     font-weight: bolder; 
-    margin: 3rem;
+    margin: 2rem;
 }
 
 .footer a {

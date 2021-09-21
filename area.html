@@ -25,19 +25,20 @@
         </ul>
     </nav>
 
-    <main> 
+    <main>
         <h1>Calculate Area of a triangle</h1>
-        <label class="label" for="first-side">Enter first side of a triangle</label>
-        <input class="input" type="number" placeholder="First Side" id="first-side">
+        <form id="area-form">
+            <label class="label" for="first-side">Enter first side of a triangle</label>
+            <input class="input" type="number" required min="1" placeholder="First Side" id="first-side">
 
-        <label class="label" for="second-side">Enter second side of a triangle</label>
-        <input class="input"  type="number" placeholder="Second Side" id="second-side">
+            <label class="label" for="second-side">Enter second side of a triangle</label>
+            <input class="input" type="number" required min="1" placeholder="Second Side" id="second-side">
 
-        <label class="label" for="third-side">Enter third side of a triangle</label>
-        <input class="input" type="number" placeholder="Third Side" id="third-side">
+            <label class="label" for="third-side">Enter third side of a triangle</label>
+            <input class="input" type="number" required min="1" placeholder="Third Side" id="third-side">
 
-        <button class="btn" id="area-btn">Calculate</button>
-
+            <button class="btn">Calculate</button>
+        </form>
         <p class="message" id="area-message"></p>
     </main>
 
