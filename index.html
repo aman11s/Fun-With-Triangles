@@ -28,16 +28,19 @@
     <main>
         <h1>Angles of Triangles 🔺</h1>
         <p class="description">Enter three angles and check if they make a traingle.</p>
-        <label class="label" for="angle-one">Angle-1</label>
-        <input class="input" type="number" placeholder="First Angle" id="angle-one">
+        <form id="is-triangle-form">
+            <label class="label" for="angle-one">Angle-1</label>
+            <input class="input" type="number" required min="1" placeholder="First Angle" id="angle-one">
 
-        <label class="label" for="angle-two">Angle-2</label>
-        <input class="input" type="number" placeholder="Second Angle" id="angle-two">
+            <label class="label" for="angle-two">Angle-2</label>
+            <input class="input" type="number" required min="1" placeholder="Second Angle" id="angle-two">
 
-        <label class="label" for="angle-three">Angle-3</label>
-        <input class="input" type="number" placeholder="Third Angle" id="angle-three">
+            <label class="label" for="angle-three">Angle-3</label>
+            <input class="input" type="number" required min="1" placeholder="Third Angle" id="angle-three">
 
-        <button class="btn" id="check-triangle-btn">Check</button>
+            <button class="btn" type="submit">Check</button>
+        </form>
+
 
         <p class="message" id="angle-of-triangle-message"></p>
     </main>
