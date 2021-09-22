@@ -81,11 +81,12 @@ form {
 }
 
 .btn {
-    margin: 1.5rem;
+    margin: 1.5rem auto;
     padding: 0.5rem;
     background-color: var(--primary-black);
     color: var(--primary-white);
     border: none;
+    max-width: 10vw;
     border-radius: 0.3rem;
     font-size: large;
     cursor: pointer;
